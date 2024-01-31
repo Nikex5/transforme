@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    article h2 {
+        color: aqua;
+    }
+
+    article>p {
+        color: aqua;
+    }
+
+    h2~p {
+        color: rgb(0, 116, 116);
+    }
+
+    div {
+        background-color: #18191C;
+    }
+
+    div:hover {
+        background-color: #ffffff;
+    }
+
+    p:focus {
+        color: rgb(0, 255, 85);
+    }
+
+    button {
+        padding: 2.5rem;
+        border: 0;
+        border-radius: 2.5rem;
+        font-size: 2.5rem;
+        background-color: #bada55;
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    button:active {
+        color: white;
+        background-color: purple;
+    }
+</style>
+
+<body>
+    <article>
+        <h2>Заголовок голубой</h2>
+        <div>
+            <h2>Абзац голубой</h2>
+        </div>
+        <h2>Абзац голубой</h2>
+
+        <p>Абзац голубой</p>
+
+
+    </article>
+    <h3>Заголовок не голубой за артикл</h3>
+    <p>Абзац не голубой</p>
+    <button>Пример актива</button>
+</body>
+
+</html>
